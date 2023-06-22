@@ -8,15 +8,21 @@
 	<link rel="shortcut icon" type="image" href="img/comments.svg">
 	<title>Chatbot</title>
 </head>
-<body>
+<body class="show-chatbot">
 	
+	<button class="chatbot-toggler">
+		<span><i class="uil uil-chat"></i></span>
+		<span><i class="uil uil-multiply"></i></span>
+	</button>
+
 	<div class="chatbot">
 		<header>
 			<h2>Chatbot</h2>
+			<span><i class="uil uil-multiply"></i></span>
 		</header>
 		<ul class="chatbox">
 			<li class="chat incoming">
-				<span class="material-symbols-outlined">smart_toy</span>
+				<span><i class="uil uil-robot"></i></span>
 				<p>Hi there <br> How can I help you today?</p>
 			</li>
 			<li class="chat outgoing">
@@ -24,8 +30,8 @@
 			</li>
 		</ul>
 		 <div class="chat-input">
-			<textarea placeholder="Enter a message....."></textarea>
-			<i class="uil uil-message"></i>
+			<textarea placeholder="Enter a message....." required></textarea>
+			<span><i class="uil uil-message"></i></span>
 		 </div>
 	</div>
 
